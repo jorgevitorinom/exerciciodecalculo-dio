@@ -1,0 +1,28 @@
+// Função do Algoritmo: Calcular a tabuada escolhida pelo usuário
+// Autor: Jorge Vitorino
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,tabuada
+
+		contador = 0
+		limite = 10
+
+		escreva("Escolha a tabuada a ser resolvida:")
+		leia(tabuada)
+
+		//Aqui é a etapada de escolha do usuário para verificar o que ele quer resolver
+
+		faca{
+
+			resultado = tabuada * contador
+			escreva(tabuada + " x " + contador +  " = "  + resultado + "\n")
+			contador ++
+		} enquanto (contador<=limite)
+
+		//Aqui é a execução do cálculo a ser resolvido
+	}
+}
